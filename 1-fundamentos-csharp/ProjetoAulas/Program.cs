@@ -30,3 +30,7 @@
 // Console.WriteLine(idadeNova);
 
 /////////////////////////////////////////////////////
+/// O QUE É UMA CONSTANTE
+/// 
+// const string DESCRIÇAO_CURSO = "Fundamentos do C#";
+// Console.WriteLine(DESCRIÇAO_CURSO);
