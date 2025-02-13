@@ -34,3 +34,11 @@
 /// 
 // const string DESCRIÇAO_CURSO = "Fundamentos do C#";
 // Console.WriteLine(DESCRIÇAO_CURSO);
+
+/////////////////////////////////////////////////////
+// COMENTÁRIOS
+// Escreve a mesangem Hello, World no console 
+// Console.WriteLine("Hello, World!");
+
+/* Escreve a mesangem Hello, World no console 
+    Console.WriteLine("Hello, World!"); */
