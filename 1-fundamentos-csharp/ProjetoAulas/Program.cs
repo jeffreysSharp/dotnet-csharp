@@ -105,3 +105,14 @@
 // Console.WriteLine(x-- + 20 + "\n");
 
 
+////////////////////////////////////////////
+// OPERADORES RELACIONAIS
+
+int a = 10, b = 25, c = 50, d = 100; // declaramos quatro variáveis de tipo int
+
+Console.WriteLine(a == d); // Avaliamos a igualdade entre a e d
+Console.WriteLine(b != c); // Avaliamos a desigualdade entre b e c
+Console.WriteLine(a > b);  // Avaliamos se a é maior que b
+Console.WriteLine(c < d);  // Avaliamos se c é menor que d
+Console.WriteLine(c >= a); // Avaliamos se c é maior ou igual que a
+Console.WriteLine(d <= b); // Avaliamos se d é menor ou igual que b
