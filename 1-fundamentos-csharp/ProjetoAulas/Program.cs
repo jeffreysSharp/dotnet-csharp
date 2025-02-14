@@ -119,8 +119,16 @@
 
 ////////////////////////////////////////////
 // OPERADORES LÓGICOS
-int a = 5, b = 10, c = 15, d = 20;    // Declaramos quatro variáveis do tipo int
+// int a = 5, b = 10, c = 15, d = 20;    // Declaramos quatro variáveis do tipo int
 
-Console.WriteLine(a == 5 && d == 10); // Avaliamos se a é igual a 5 e se d é igual a 10
-Console.WriteLine(c < b || d == 20);  // Avaliamos se c é menor que b ou se d é igual a 20
-Console.WriteLine(! (b > a));         // Negamos que b é maior que a
+// Console.WriteLine(a == 5 && d == 10); // Avaliamos se a é igual a 5 e se d é igual a 10
+// Console.WriteLine(c < b || d == 20);  // Avaliamos se c é menor que b ou se d é igual a 20
+// Console.WriteLine(! (b > a));         // Negamos que b é maior que a
+
+///////////////////////////////////////////
+// OPERADOR TERNÁRIO
+int x = 5, y = 10; // Declaramos duas variáveis de tipo int
+
+Console.WriteLine(x < y ? "sim" : "não");  // Expressão x < y é avaliada
+// Se for verdadeira exibe "sim"
+// Se não for verdadeira exibe "não"
