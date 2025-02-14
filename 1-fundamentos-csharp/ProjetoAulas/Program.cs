@@ -108,11 +108,19 @@
 ////////////////////////////////////////////
 // OPERADORES RELACIONAIS
 
-int a = 10, b = 25, c = 50, d = 100; // declaramos quatro variáveis de tipo int
+// int a = 10, b = 25, c = 50, d = 100; // declaramos quatro variáveis de tipo int
 
-Console.WriteLine(a == d); // Avaliamos a igualdade entre a e d
-Console.WriteLine(b != c); // Avaliamos a desigualdade entre b e c
-Console.WriteLine(a > b);  // Avaliamos se a é maior que b
-Console.WriteLine(c < d);  // Avaliamos se c é menor que d
-Console.WriteLine(c >= a); // Avaliamos se c é maior ou igual que a
-Console.WriteLine(d <= b); // Avaliamos se d é menor ou igual que b
+// Console.WriteLine(a == d); // Avaliamos a igualdade entre a e d
+// Console.WriteLine(b != c); // Avaliamos a desigualdade entre b e c
+// Console.WriteLine(a > b);  // Avaliamos se a é maior que b
+// Console.WriteLine(c < d);  // Avaliamos se c é menor que d
+// Console.WriteLine(c >= a); // Avaliamos se c é maior ou igual que a
+// Console.WriteLine(d <= b); // Avaliamos se d é menor ou igual que b
+
+////////////////////////////////////////////
+// OPERADORES LÓGICOS
+int a = 5, b = 10, c = 15, d = 20;    // Declaramos quatro variáveis do tipo int
+
+Console.WriteLine(a == 5 && d == 10); // Avaliamos se a é igual a 5 e se d é igual a 10
+Console.WriteLine(c < b || d == 20);  // Avaliamos se c é menor que b ou se d é igual a 20
+Console.WriteLine(! (b > a));         // Negamos que b é maior que a
