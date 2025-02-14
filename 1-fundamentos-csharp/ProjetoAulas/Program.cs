@@ -127,8 +127,51 @@
 
 ///////////////////////////////////////////
 // OPERADOR TERNÁRIO
-int x = 5, y = 10; // Declaramos duas variáveis de tipo int
+//int x = 5, y = 10; // Declaramos duas variáveis de tipo int
 
-Console.WriteLine(x < y ? "sim" : "não");  // Expressão x < y é avaliada
+//Console.WriteLine(x < y ? "sim" : "não");  // Expressão x < y é avaliada
 // Se for verdadeira exibe "sim"
 // Se não for verdadeira exibe "não"
+
+/////////////////////////////////////////////////
+/// MÉTODOS
+/// Assinaturas de Método
+/// 
+
+// namespace ExemploMotocicleta
+// {
+//     abstract class Motocicleta
+//     {
+//         // Qualquer classe pode chamar um método public
+//         public void StartEngine() 
+//         {
+//             /* Instruções do método aqui */ 
+//         }
+
+//         // Somente classes derivadas podem chamar um método protected
+//         protected void AddGas(int gallons) 
+//         { 
+//             /* Instruções de método aqui */             
+//         }
+
+//         // As classes derivadas podem substituir a implementação da classe base
+//         public virtual int Drive(int miles, int speed) 
+//         { 
+//             /* Declarações de método aqui*/ 
+            
+//             return 1; 
+//         }
+
+//         // As classes derivadas podem substituir a implementação da classe base
+//         public virtual int Drive(TimeSpan time, int speed) 
+//         { 
+//             /* Declarações de método aqui */ 
+            
+//             return 0; 
+//         }
+
+//         // As classes derivadas devem implementar isso
+//         public abstract double GetTopSpeed();
+//     }
+// }
+
